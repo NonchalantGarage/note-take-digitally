@@ -2,18 +2,23 @@
   "notes": [
     {
       "id": "0",
-      "title": "Test",
-      "text": "Test text"
+      "title": "Learn how to use SQL",
+      "text": "Start module 12 MYSQL"
     },
     {
-      "title": "Hello",
-      "text": "World",
+      "title": "Rent a van",
+      "text": "Call car rental center for upcoming road trip",
       "id": "1"
     },
     {
-      "title": "Sausages",
-      "text": "Pizza",
+      "title": "Buy sausage",
+      "text": "Pizza Party",
       "id": "2"
+    },
+    {
+      "title": "Switch careers",
+      "text": "Find a new career in 2022\n",
+      "id": "3"
     }
   ]
 }
