@@ -1,7 +1,7 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple note taking app which can be used for reminders and capture thoughts to revisit later.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,6 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.16.4",
+    "uuid": "^8.3.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NonchalantGarage/note-take-digitally.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NonchalantGarage/note-take-digitally/issues"
+  },
+  "homepage": "https://github.com/NonchalantGarage/note-take-digitally#readme"
 }
