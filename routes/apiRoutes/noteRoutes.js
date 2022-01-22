@@ -1,5 +1,4 @@
 const router = require("express").Router();
-const { createNewNote, deleteNote } = require("../../lib/notes");
 const fs = require("fs");
 const { v4: uuidv4 } = require("uuid");
 
@@ -22,13 +21,15 @@ router.post("/notes", (req, res) => {
 });
 
 router.delete("/notes/:id", (req, res) => {
-  deleteNote(req.params.id, notes);
-  res
-    .json(notes)
-    .catch((err) => {
-      res.status(500).json(err);
-    })
-    .reload();
+    fs.readFile("db/db.json", "utf-8", (err, notes) => {
+        let notesParsed = JSON.parse(notes);
+        const result = notesParsed.filter(notesParsed => notesParsed.id !== req.params.id);
+    fs.writeFile("db/db.json", JSON.stringify(result), (err, newNotes) => {
+      return res.json(newNotes);
+    });
 });
+});
+
+
 
 module.exports = router;
