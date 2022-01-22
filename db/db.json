@@ -1,23 +1,23 @@
 {
   "notes": [
     {
-      "id": "0",
-      "title": "Learn how to use SQL",
-      "text": "Start module 12 MYSQL"
+      "title": "Chop Wood",
+      "text": "Chop Wood\n",
+      "id": "0"
     },
     {
-      "title": "Rent a van",
-      "text": "Call car rental center for upcoming road trip",
+      "title": "Carry Water",
+      "text": "Carry Water",
       "id": "1"
     },
     {
-      "title": "Buy sausage",
-      "text": "Pizza Party",
+      "title": "Chop Wood",
+      "text": "Chop Wood",
       "id": "2"
     },
     {
-      "title": "Switch careers",
-      "text": "Find a new career in 2022\n",
+      "title": "Carry Water",
+      "text": "Carry Water",
       "id": "3"
     }
   ]
