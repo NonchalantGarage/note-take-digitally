@@ -1,19 +1,24 @@
 {
   "notes": [
     {
-      "title": "Chop Wood",
-      "text": "Chop Wood\n",
+      "title": "chop wood",
+      "text": "chop wood",
       "id": "0"
     },
     {
-      "title": "Carry Water",
-      "text": "Carry Water",
+      "title": "carry water",
+      "text": "carry water",
       "id": "1"
     },
     {
-      "title": "Chop Wood",
-      "text": "Chop Wood",
+      "title": "chop wood",
+      "text": "chop wood",
       "id": "2"
+    },
+    {
+      "title": "carry water",
+      "text": "carry water",
+      "id": "3"
     }
   ]
 }
