@@ -10,6 +10,7 @@ Open the app via this deployable [link](https://note-take-digitally.herokuapp.co
 ## Technologies
 NodeJS
 ExpressJS
+UUID npm package
 
 ## Usage
 
